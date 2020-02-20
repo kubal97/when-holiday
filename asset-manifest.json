@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/when-holiday/static/css/main.c91313ea.chunk.css",
+    "main.js": "/when-holiday/static/js/main.5cf0be66.chunk.js",
+    "main.js.map": "/when-holiday/static/js/main.5cf0be66.chunk.js.map",
+    "runtime-main.js": "/when-holiday/static/js/runtime-main.8377960e.js",
+    "runtime-main.js.map": "/when-holiday/static/js/runtime-main.8377960e.js.map",
+    "static/js/2.f9c02524.chunk.js": "/when-holiday/static/js/2.f9c02524.chunk.js",
+    "static/js/2.f9c02524.chunk.js.map": "/when-holiday/static/js/2.f9c02524.chunk.js.map",
+    "index.html": "/when-holiday/index.html",
+    "precache-manifest.b6192f93adae3309345e018f7b378617.js": "/when-holiday/precache-manifest.b6192f93adae3309345e018f7b378617.js",
+    "service-worker.js": "/when-holiday/service-worker.js",
+    "static/css/main.c91313ea.chunk.css.map": "/when-holiday/static/css/main.c91313ea.chunk.css.map",
+    "static/js/2.f9c02524.chunk.js.LICENSE.txt": "/when-holiday/static/js/2.f9c02524.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8377960e.js",
+    "static/js/2.f9c02524.chunk.js",
+    "static/css/main.c91313ea.chunk.css",
+    "static/js/main.5cf0be66.chunk.js"
+  ]
+}
