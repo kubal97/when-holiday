@@ -40,6 +40,8 @@ class App extends React.Component {
     this.setState({
       inputDate: convertedDate,
     });
+    let content = document.getElementById('container');
+    content.classList.remove('pulse');
   };
 
   timeUntil = (currentDate, inputDate) => {
@@ -51,13 +53,16 @@ class App extends React.Component {
       days: days,
       weeks: weeks
     });
+
+    let content = document.getElementById('container');
+    content.classList.add('pulse');
   };
 
   render() {
     return (
       <div className="App">
         <header className="header">
-          <div className="container">
+          <div id="container" className="container">
             <label className="label" htmlFor="date">Wpisz datę wydarzenia:</label>
             <input
               className="input"
@@ -71,7 +76,7 @@ class App extends React.Component {
                 className="button"
                 onClick={() => {
                   this.timeUntil(this.state.time, this.state.inputDate);
-                  this.setState({showOutput: true})
+                  this.setState({showOutput: true});
                 }}>Oblicz
               </button> :
               <button

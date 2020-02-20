@@ -11,14 +11,20 @@
     position: absolute;
     color: #fff;
     font-size: 25px;
+    animation: textsShow .5s ease;
 }
 
 .days{
-    left: 10%;
+    left: 5%;
 }
 
 .weeks{
-    right: 10%;
+    right: 5%;
+}
+
+@keyframes textsShow {
+    0% {opacity: 0; transform: scale(.2)}
+    100% {opacity: 1; transform: scale(1)}
 }
 
 @media only screen and (max-width: 990px){
